@@ -1,0 +1,157 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+}
+
+/* ............font__family */
+.ff_plus_jakarta {
+    font-family: 'plus jakarta sans', sans-serif;
+}
+
+.ff_poppin {
+    font-family: 'poppins', sans-serif;
+}
+
+/* .............line__height............ */
+.lh_60 {
+    line-height: 60.48px;
+}
+
+.lh_55 {
+    line-height: 55px;
+}
+
+.lh_44 {
+    line-height: 44.8px;
+}
+
+.lh_38 {
+    line-height: 38.72px;
+}
+
+.lh_30 {
+    line-height: 30px;
+}
+
+.lh_28 {
+    line-height: 28px;
+}
+
+.lh_27 {
+    line-height: 27px;
+}
+
+.lh_25 {
+    line-height: 25px;
+}
+
+.lh_24 {
+    line-height: 24px;
+}
+
+.lh_22 {
+    line-height: 22.68px;
+}
+
+.lh_21 {
+    line-height: 21px;
+}
+
+.lh_20 {
+    line-height: 20px;
+}
+
+.lh_19 {
+    line-height: 19px;
+}
+
+.lh_18 {
+    line-height: 18.9px;
+}
+
+.lh_15 {
+    line-height: 15.24px;
+}
+
+.lh_13 {
+    line-height: 13px;
+}
+
+.opacity_80 {
+    opacity: 80%;
+}
+
+.opacity_70 {
+    opacity: 70%;
+}
+
+/* ................header---section............. */
+.nav_container {
+    max-width: 1375px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav_br {
+    border-bottom: 1px solid var(--outline-clr);
+}
+
+.headerbg_img {
+    background-image: url("../images/png/header-img.png");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: 100% 65%;
+}
+
+.py_9 {
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.try_btn {
+    padding: 13px 32px;
+    background: linear-gradient(159.94deg, rgba(0, 136, 255, 0.58) -14.36%, #0069E3 113.71%);
+    box-shadow: 0px 4px 32px 0px #2746ED80;
+    border-radius: 40px;
+    border: none;
+    transition: all 200ms linear;
+    cursor: pointer;
+}
+
+.try_btn:hover {
+    background: var(--primary-text-clr);
+    color: var(--blue-clr);
+}
+
+.gap_51 {
+    gap: 51px;
+}
+
+.bt_line::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background: var(--blue-clr);
+    width: 0%;
+    bottom: 0;
+    left: 0;
+    transition: all 200ms linear;
+   
+}
+.bt_line:hover {
+    color: var(--blue-clr);
+    opacity: 1;
+}
+
+.bt_line:hover::after {
+    width: 100%;
+}
+

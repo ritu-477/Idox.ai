@@ -1,0 +1,76 @@
+:root {
+    /* font-size: */
+    --fs-xxxxsm: 9px;
+    --fs-xxxsm: 9.82px;
+    --fs-xxsm: 10.88px;
+    --fs-xsm: 12px;
+    --fs-sm: 13px;
+    --fs--larg-sm: 14px;
+    --fs-md: 15px;
+    --fs--larg-md: 16px;
+    --fs-lg: 18px;
+    --fs-larg-lg: 20px;
+    --fs-2xl: 32px;
+    --fs-3xl: 44px;
+    --fs-4xl: 48px;
+    /* font-color */
+    --body-clr:#020d15;
+    --primary-text-clr:#fbfdff;
+    --outline-clr:#323942;
+    --blue-clr:#0389ff;
+    --nav-bgclr:#030d18;
+
+}
+/* font-sizes.... */
+.fs_48{
+    font-size: var(--fs-4xl);
+}
+.fs_44 {
+    font-size: var(--fs-3xl);
+}
+.fs_32 {
+    font-size: var(--fs-2xl);
+}
+.fs_20 {
+    font-size: var(--fs-larg-lg);
+}
+.fs_18 {
+    font-size: var(--fs-lg);
+}
+.fs_16 {
+    font-size: var(--fs-larg-md);
+}
+.fs_15 {
+    font-size: var(--fs-md);
+}
+.fs_14 {
+    font-size: var(--fs-larg-sm);
+}
+.fs_13 {
+    font-size: var(--fs-sm);
+}
+.fs_12{
+    font-size: var(--fs-xsm);
+}
+.fs_10{
+    font-size: var(--fs-xxsm);
+}
+.fs_xxxsm {
+    font-size: var(--fs-xxxsm);
+}
+.fs_9 {
+    font-size: var(--fs-xxxxsm);
+}
+/* .............colors................ */
+.body_clr{
+    background-color: var(--body-clr)
+}
+.primary-text-clr{
+    color: var(--primary-text-clr);
+}
+.nav-bg-clr{
+    background-color: var(--nav-bgclr);
+}
+.blue-clr{
+    color: var(--blue-clr);
+}
