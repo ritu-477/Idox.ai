@@ -106,9 +106,9 @@
 
 .headerbg_img {
     background-image: url("../images/png/header-img.png");
-    /* background-position: center; */
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 65%;
+    background-size: cover;
 }
 
 .py_9 {
@@ -144,8 +144,9 @@
     bottom: 0;
     left: 0;
     transition: all 200ms linear;
-   
+
 }
+
 .bt_line:hover {
     color: var(--blue-clr);
     opacity: 1;
@@ -153,6 +154,56 @@
 
 .bt_line:hover::after {
     width: 100%;
+}
+
+/* /\............................................hero-section ..................*/
+.container_1140 {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.undrline {
+    height: 2px;
+    width: 109px;
+    background-color: var(--blue-clr);
+}
+
+.max-w467 {
+    max-width: 467px;
+}
+
+.max-w474 {
+    max-width: 4740px;
+}
+
+.max-w834 {
+    max-width: 834px;
+}
+
+.max-w699 {
+    max-width: 699px;
+}
+
+.max-w617 {
+    max-width: 617px;
+}
+
+.max-w515 {
+    max-width: 515px;
+}
+
+.pb_28 {
+    padding-bottom: 28px;
+}
+
+.pt_48 {
+    padding-top: 48px;
+}
+.pt_6{
+    padding-top: 6px;
 }
 
 
@@ -233,4 +284,14 @@
         width: 27px;
     }
 
+}
+
+@media(min-width:992px) {
+    .pt_lg_82 {
+        padding-top: 82px;
+    }
+
+    .max-w524 {
+        max-width: 524px;
+    }
 }
