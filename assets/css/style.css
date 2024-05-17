@@ -20,13 +20,12 @@
 
 /* .............line__height............ */
 .lh_60 {
-    line-height: 60.48px;
+    line-height: 46px;
 }
 
 .lh_55 {
-    line-height: 55px;
+    line-height: 45px;
 }
-
 .lh_44 {
     line-height: 44.8px;
 }
@@ -106,9 +105,8 @@
 
 .headerbg_img {
     background-image: url("../images/png/header-img.png");
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 65%;
 }
 
 .py_9 {
@@ -164,6 +162,13 @@
     margin-left: auto;
     margin-right: auto;
 }
+.container_1210{
+    max-width: 1210px;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-left: auto;
+        margin-right: auto;
+}
 
 .undrline {
     height: 2px;
@@ -202,7 +207,8 @@
 .pt_48 {
     padding-top: 48px;
 }
-.pt_6{
+
+.pt_6 {
     padding-top: 6px;
 }
 
@@ -284,6 +290,16 @@
         width: 27px;
     }
 
+}
+
+@media(min-width:576px) {
+    .lh_60 {
+        line-height: 60.48px;
+    }
+
+    .lh_55 {
+        line-height: 55px;
+    }
 }
 
 @media(min-width:992px) {

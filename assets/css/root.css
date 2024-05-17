@@ -74,3 +74,9 @@
 .blue-clr{
     color: var(--blue-clr);
 }
+@media(max-width:575.99px){
+    :root{
+        --fs-2xl: 25px;
+        --fs-4xl: 27px;
+    }
+}
