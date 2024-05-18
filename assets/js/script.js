@@ -4,6 +4,23 @@ function openNav() {
     document.body.classList.toggle("overflowhidden")
     document.querySelector(".iconbox").classList.toggle("cross")
 }
+// accordion
+const accordionbtn = document.querySelectorAll(".accordionbtn")
+accordionbtn.forEach((e) => {
+    e.addEventListener("click", () => {
+        const activeaccodion = document.querySelector(".active")
+        e.parentElement.classList.toggle("active")
+        activeaccodion && activeaccodion.classList.remove("active")
+    })
+});
+// const accordionHead = document.querySelectorAll(".accordionHead");
+// accordionHead.forEach((e) => {
+//     e.addEventListener("click", () => {
+//         const activeAccordion = document.querySelector(".active")
+//         e.parentElement.classList.toggle("active")
+//         activeAccordion && activeAccordion.classList.remove("active")
+//     })
+// })
 
 
 $('.slider_collaboration').slick({

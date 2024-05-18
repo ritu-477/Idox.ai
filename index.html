@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,63 +18,78 @@
     <link rel="icon" href="./assets/images/png/logo-icon.png">
     <title>Idox.ai</title>
 </head>
+
 <body class="body_clr overflow-x-hidden">
     <header class="headerbg_img position-relative">
         <div class="nav_br">
-        <div class="nav_container">
-        <nav class="nav-bg-clr py_9">
-                <div class="d-flex justify-content-between align-items-center">
-                    <img src="./assets/images/png/nav-logo.png" alt="logo">
-                    <div class="iconbox" onclick="openNav()">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+            <div class="nav_container">
+                <nav class="nav-bg-clr py_9">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <img src="./assets/images/png/nav-logo.png" alt="logo">
+                        <div class="iconbox" onclick="openNav()">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <ul class="d-flex align-items-center gap_51 mb-0 ps-0 menulist" id="navbar">
+                            <li><a class="ff_plus_jakarta lh_18 fs_15 fw-normal primary-text-clr opacity_80 position-relative bt_line"
+                                    href="redact" onclick="openNav()">REDACT</a></li>
+                            <li><a class="ff_plus_jakarta lh_18 fs_15 fw-normal primary-text-clr opacity_80 position-relative bt_line"
+                                    href="extract" onclick="openNav()">EXTRACT</a></li>
+                            <li><a class="ff_plus_jakarta lh_18 fs_15 fw-normal primary-text-clr opacity_80 position-relative bt_line"
+                                    href="detect" onclick="openNav()">DETECT</a></li>
+                            <li><a class="ff_plus_jakarta lh_18 fs_15 fw-normal primary-text-clr opacity_80 position-relative bt_line"
+                                    href="compare" onclick="openNav()">COMPARE</a></li>
+                            <li><button class="ff_plus_jakarta fw-semibold fs_16 lh_27 primary-text-clr try_btn"
+                                    onclick="openNav()">TRY NOW</button></li>
+                        </ul>
                     </div>
-                    <ul class="d-flex align-items-center gap_51 mb-0 ps-0 menulist" id="navbar">
-                        <li><a class="ff_plus_jakarta lh_18 fs_15 fw-normal primary-text-clr opacity_80 position-relative bt_line" href="redact" onclick="openNav()">REDACT</a></li>
-                        <li><a class="ff_plus_jakarta lh_18 fs_15 fw-normal primary-text-clr opacity_80 position-relative bt_line" href="extract" onclick="openNav()">EXTRACT</a></li>
-                        <li><a class="ff_plus_jakarta lh_18 fs_15 fw-normal primary-text-clr opacity_80 position-relative bt_line" href="detect" onclick="openNav()">DETECT</a></li>
-                        <li><a class="ff_plus_jakarta lh_18 fs_15 fw-normal primary-text-clr opacity_80 position-relative bt_line" href="compare" onclick="openNav()">COMPARE</a></li>
-                        <li><button class="ff_plus_jakarta fw-semibold fs_16 lh_27 primary-text-clr try_btn" onclick="openNav()">TRY NOW</button></li>
-                    </ul>
-                </div>
-        </nav>
-        </div>
-        </div>
-       <div class="pt_lg_82 pt_48">
-        <div class="container_1140">
-            <div class="row">
-                <div class="col-lg-6 col-12 d-flex flex-column justify-content-center justify-content-lg-end align-items-center">
-                    <div class="d-flex align-items-center gap-3">
-                        <div class="undrline"></div>
-                        <p class="fw-light fs_32 lh_38 ff_plus_jakarta primary-text-clr mb-0">The world’s<span class="blue-clr">#1</span></p>
-                    </div>
-                    <h1 class="ff_plus_jakarta primary-text-clr mb-0 fw-bold fs_48 lh_60 max-w524 text-lg-start text-center pt_6">AI powered document compliance solution</h1>
-                </div>
-                <div class="col-lg-6 col-12 d-flex justify-content-lg-end justify-content-center pt-md-3 pt-2 pt-lg-0">
-                    <div class="max-w515 w-100 d-flex flex-column align-items-lg-start align-items-center">
-                        <p class="ff_plus_jakarta primary-text-clr fs_16 lh_27 opacity_70 max-w515 mb-0 pb_28 text-lg-start text-center">iDox.ai provides the world’s most
-                            advanced AI powered redaction solution for organizations to scan and detect within
-                            document management systems, folders, and multitude of file sources.</p>
-                        <button class="ff_plus_jakarta fw-semibold fs_16 lh_27 primary-text-clr try_btn">Request Demo</button>
-                    </div>
-                </div>
+                </nav>
             </div>
+        </div>
+        <div class="pt_lg_82 pt_48">
+            <div class="container_1140">
+                <div class="row">
+                    <div
+                        class="col-lg-6 col-12 d-flex flex-column justify-content-center justify-content-lg-end align-items-center">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="undrline"></div>
+                            <p class="fw-light fs_32 lh_38 ff_plus_jakarta primary-text-clr mb-0">The world’s<span
+                                    class="blue-clr">#1</span></p>
+                        </div>
+                        <h1
+                            class="ff_plus_jakarta primary-text-clr mb-0 fw-bold fs_48 lh_60 max-w524 text-lg-start text-center pt_6">
+                            AI powered document compliance solution</h1>
+                    </div>
+                    <div
+                        class="col-lg-6 col-12 d-flex justify-content-lg-end justify-content-center pt-md-3 pt-2 pt-lg-0">
+                        <div class="max-w515 w-100 d-flex flex-column align-items-lg-start align-items-center">
+                            <p
+                                class="ff_plus_jakarta primary-text-clr fs_16 lh_27 opacity_70 max-w515 mb-0 pb_28 text-lg-start text-center">
+                                iDox.ai provides the world’s most
+                                advanced AI powered redaction solution for organizations to scan and detect within
+                                document management systems, folders, and multitude of file sources.</p>
+                            <button class="ff_plus_jakarta fw-semibold fs_16 lh_27 primary-text-clr try_btn">Request
+                                Demo</button>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="container_1210">
                 <div class="d-flex justify-content-center">
                     <img src="./assets/images/png/hero-image.png" alt="heroimg" class="w-100 cursor-p z-1">
                 </div>
             </div>
-       </div>
-       <div class="ellips1 position-absolute d-lg-block d-none z-n1">
-        <img src="./assets/images/png/ellips1.png" alt="ellipss">
-       </div>
+        </div>
+        <div class="ellips1 position-absolute d-lg-block d-none z-n1">
+            <img src="./assets/images/png/ellips1.png" alt="ellipss">
+        </div>
     </header>
     <!-- collaboration -->
     <section class="py-4 overflow-x-hidden">
-       <div class="container">
-            <h3 class="ff_plus_jakarta fs_20 lh_24 fw-light primary-text-clr opacity_70 pb_19 text-center">In collaboration with</h3>
+        <div class="container">
+            <h3 class="ff_plus_jakarta fs_20 lh_24 fw-light primary-text-clr opacity_70 pb_19 text-center">In
+                collaboration with</h3>
             <div class="slider_collaboration">
                 <div class="slider-imgbox">
                     <img src="./assets/images/png/nhs-img.png" alt="nhs">
@@ -100,38 +116,163 @@
                     <img src="./assets/images/png/rubix-img.png" alt="rubix">
                 </div>
             </div>
-       </div>
+        </div>
     </section>
-<!-- sec-3 compliance security-->
-<section>
-    <div class="container max_w1280">
-         <div class="row">
-            <div class="col-lg-7 col-12 d-flex justify-content-center">
-                <img src="./assets/images/png/ai-image.png" alt="aiimage" class="w-100 max-wimg615">
-            </div>
-            <div class="col-lg-5 col-12 d-flex align-items-center justify-content-center">
-                <div class="d-flex flex-column align-items-lg-start align-items-center">
-                    <h2 class="ff_plus_jakarta fw-medium fs_44 lh_55 primary-text-clr max-w467 mb-0 pb-2 text-lg-start text-center">Compliance Security Trust</h2>
-                    <p class="ff_plus_jakarta fw-normal lh_27 primary-text-clr opacity_70 fs_16 max-w474 mb-0 text-lg-start text-center">Posuere ultrices aliquet risus malesuada viverra nec praesent. Sed nisl facilisi augue.</p>
-                 <div class="mt_28">
-                    <button class="ff_plus_jakarta fw-semibold fs_16 lh_27 primary-text-clr try_btn">watch demo video</button>
-                 </div>
+    <!-- sec-3 compliance security-->
+    <section class="pb-5">
+        <div class="container_1140">
+            <div class="row d-flex justify-content-between">
+                <div class="col-lg-6 col-12 d-flex justify-content-center">
+                    <img src="./assets/images/png/ai-image.png" alt="aiimage" class="w-100 max-wimg615">
+                </div>
+                <div class="col-lg-5 col-12 d-flex align-items-center justify-content-center">
+                    <div class="d-flex flex-column align-items-lg-start align-items-center">
+                        <h2
+                            class="ff_plus_jakarta fw-medium fs_44 lh_55 primary-text-clr max-w467 mb-0 pb-2 text-lg-start text-center">
+                            Compliance Security Trust</h2>
+                        <p
+                            class="ff_plus_jakarta fw-normal lh_27 primary-text-clr opacity_70 fs_16 max-w474 mb-0 text-lg-start text-center">
+                            Posuere ultrices aliquet risus malesuada viverra nec praesent. Sed nisl facilisi augue.</p>
+                        <div class="mt_28">
+                            <button class="ff_plus_jakarta fw-semibold fs_16 lh_27 primary-text-clr try_btn">watch demo
+                                video</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-         </div>
-    </div>
-</section>
-<!-- time-saving-integration -->
-<section>
-    <div class="container_1140">
-        <div class="row">
-            <div class="col-6">
+        </div>
+    </section>
+    <!-- time-saving-integration -->
+    <section class="position-relative py_51_87">
+        <div class="position-absolute z-n1 ellips2">
+            <img src="./assets/images/png/ellips2.png" alt="ellips2">
+        </div>
+        <div class="position-absolute z-n1 ellips3">
+            <img src="./assets/images/png/ellips3.png" alt="ellips3">
+        </div>
+        <div class="container_1140">
+            <div class="row">
+                <div class="col-lg-6 col-12 d-flex align-items-center">
+                    <div class="d-flex flex-column align-items-lg-start align-items-center">
+                        <h2
+                            class="ff_plus_jakarta fw-medium fs_44 lh_55 primary-text-clr max-w467 mb-0 pb-2 text-lg-start text-center">
+                            How we can help?</h2>
+                        <p
+                            class="ff_plus_jakarta fw-normal lh_27 primary-text-clr opacity_70 fs_16 max-w474 mb-0 text-lg-start text-center">
+                            Whether you handle financial, government, healthcare, or legal information, iDox.ai allows
+                            organizations to reduce risk
+                            of human error, combat time sensitive redaction requests, avoid costly penalties at a
+                            fraction of the price.</p>
+                        <div class="mt_28">
+                            <button class="ff_plus_jakarta fw-semibold fs_16 lh_27 primary-text-clr try_btn">watch demo
+                                video</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 d-flex justify-content-center">
+                    <div class="blank">
+                       <div class="accordian-box mx-auto">
+                        <div class="accordian1 active">
+                            <div class="accordionbtn d-flex gap_22">
+                                <div class="watch-box d-flex align-items-center justify-content-center">
+                                    <img class="" src="./assets/images/svg/watchsvg.svg" alt="watch">
+                                </div>
+                                <div class="blank">
+                                    <p class="mb-0 pb-1 ff_plus_jakarta fw-medium fs_18 lh_22 content opacity_80 primary-text-clr">Time-Saving
+                                        AI Integrations</p>
+                                    <p class="ff_plus_jakarta fw-normal fs_16 lh_27 primary-text-clr opacity_70 mb-0 accordionpara max-w370">
+                                        Posuere ultrices aliquet risus malesuada viverra nec praesent. Sed nisl facilisi augue.</p>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                        <div class="accordian-box mx-auto">
+                            <div class="accordian1">
+                                <div class="accordionbtn d-flex gap_22">
+                                    <div class="watch-box d-flex align-items-center justify-content-center">
+                                        <img class="" src="./assets/images/svg/watchsvg.svg" alt="watch">
+                                    </div>
+                                    <div class="blank">
+                                        <p class="mb-0 pb-1 ff_plus_jakarta fw-medium fs_18 lh_22 content opacity_80 primary-text-clr">
+                                            Enterprise-Level Scalability</p>
+                                        <p
+                                            class="ff_plus_jakarta fw-normal fs_16 lh_27 primary-text-clr opacity_70 mb-0 accordionpara max-w370">
+                                            Posuere ultrices aliquet risus malesuada viverra nec praesent. Sed nisl facilisi augue.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordian-box mx-auto">
+                            <div class="accordian1">
+                                <div class="accordionbtn d-flex gap_22">
+                                    <div class="watch-box d-flex align-items-center justify-content-center">
+                                        <img class="" src="./assets/images/svg/watchsvg.svg" alt="watch">
+                                    </div>
+                                    <div class="blank">
+                                        <p class="mb-0 pb-1 ff_plus_jakarta fw-medium fs_18 lh_22 content opacity_80 primary-text-clr">
+                                        Cloud-Based For Multiple Locations</p>
+                                        <p
+                                            class="ff_plus_jakarta fw-normal fs_16 lh_27 primary-text-clr opacity_70 mb-0 accordionpara max-w370">
+                                            Posuere ultrices aliquet risus malesuada viverra nec praesent. Sed nisl facilisi augue.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordian-box mx-auto">
+                            <div class="accordian1">
+                                <div class="accordionbtn d-flex gap_22">
+                                    <div class="watch-box d-flex align-items-center justify-content-center">
+                                        <img class="" src="./assets/images/svg/watchsvg.svg" alt="watch">
+                                    </div>
+                                    <div class="blank">
+                                        <p class="mb-0 pb-1 ff_plus_jakarta fw-medium fs_18 lh_22 content opacity_80 primary-text-clr">
+                                            Collaborative Work Among Teams</p>
+                                        <p
+                                            class="ff_plus_jakarta fw-normal fs_16 lh_27 primary-text-clr opacity_70 mb-0 accordionpara max-w370">
+                                            Posuere ultrices aliquet risus malesuada viverra nec praesent. Sed nisl facilisi augue.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordian-box mx-auto">
+                            <div class="accordian1">
+                                <div class="accordionbtn d-flex gap_22">
+                                    <div class="watch-box d-flex align-items-center justify-content-center">
+                                        <img class="" src="./assets/images/svg/watchsvg.svg" alt="watch">
+                                    </div>
+                                    <div class="blank">
+                                        <p class="mb-0 pb-1 ff_plus_jakarta fw-medium fs_18 lh_22 content opacity_80 primary-text-clr">
+                                        Proactive Risk Assessment Reports</p>
+                                        <p
+                                            class="ff_plus_jakarta fw-normal fs_16 lh_27 primary-text-clr opacity_70 mb-0 accordionpara max-w370">
+                                            Posuere ultrices aliquet risus malesuada viverra nec praesent. Sed nisl facilisi augue.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordian-box mx-auto">
+                            <div class="accordian1">
+                                <div class="accordionbtn d-flex gap_22">
+                                    <div class="watch-box d-flex align-items-center justify-content-center">
+                                        <img class="" src="./assets/images/svg/watchsvg.svg" alt="watch">
+                                    </div>
+                                    <div class="blank">
+                                        <p class="mb-0 pb-1 ff_plus_jakarta fw-medium fs_18 lh_22 content opacity_80 primary-text-clr">
+                                            High Accuracy To Avoid Oversights</p>
+                                        <p
+                                            class="ff_plus_jakarta fw-normal fs_16 lh_27 primary-text-clr opacity_70 mb-0 accordionpara max-w370">
+                                            Posuere ultrices aliquet risus malesuada viverra nec praesent. Sed nisl facilisi augue.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
+
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-   
+    </section>
 
 
 
@@ -139,17 +280,19 @@
 
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"
-    integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<!-- bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"
+        integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>
 </body>
+
 </html>

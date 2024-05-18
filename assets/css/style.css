@@ -26,6 +26,7 @@
 .lh_55 {
     line-height: 45px;
 }
+
 .lh_44 {
     line-height: 44.8px;
 }
@@ -162,12 +163,13 @@
     margin-left: auto;
     margin-right: auto;
 }
-.container_1210{
+
+.container_1210 {
     max-width: 1210px;
-        padding-left: 12px;
-        padding-right: 12px;
-        margin-left: auto;
-        margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .undrline {
@@ -211,13 +213,16 @@
 .pt_6 {
     padding-top: 6px;
 }
-.ellips1{
+
+.ellips1 {
     left: 0;
     bottom: -20%;
 }
-.cursor-p{
+
+.cursor-p {
     cursor: pointer;
 }
+
 /* ...........................collebration-section */
 
 .slider-imgbox img {
@@ -227,22 +232,88 @@
 .slider-imgbox:hover img {
     filter: unset;
 }
-.pb_19{
+
+.pb_19 {
     padding-bottom: 19px;
 }
+
 /* complaince-security */
-.mt_28{
+.mt_28 {
     margin-top: 28px;
 }
-.justify_content_center{
+
+.justify_content_center {
     justify-content: center !important;
 }
-.max-wimg615{
+
+.max-wimg615 {
     max-width: 615px;
 }
-.max_w1280{
-    max-width: 1280px;
+
+/* time-saving section */
+.ellips2 {
+    top: 0;
+    right: 0;
 }
+
+.ellips3 {
+    bottom: 0;
+    left: 0;
+}
+
+.py_51_87 {
+    padding-top: 51px;
+    padding-bottom: 87px;
+}
+
+
+.accordian1 {
+    max-width: 531px;
+    border-radius: 10px;
+    background: var(--bg-blue1);
+    margin-bottom: 10px;
+    transition: all 300ms linear;
+}
+
+.accordionbtn{
+    padding: 24px;
+    cursor: pointer;
+}
+.gap_22{
+    gap: 22px;
+}
+.watch-box{
+    padding: 17px 17px 18px 17px;
+    border-radius: 8px;
+    width: 64px;    
+    height: 64px;
+    background: var(--bg-blue1);
+    transition: all 300ms linear;
+    display: none !important;
+}
+.max-w370{
+    max-width: 370px;
+}
+.accordian1.active .accordionbtn .content {
+    color: var(--blue-clr);
+}
+.accordian1.active .accordionpara {
+    height: unset;
+}
+.accordionpara {
+    height: 0;
+    overflow: hidden;
+    transition: all 300ms linear;
+}
+
+.timeSaving_box.active .accordionpara {
+    height: unset;
+}
+.accordian1.active .accordionbtn .watch-box {
+    display: block !important;
+}
+
+
 
 
 
