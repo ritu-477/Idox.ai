@@ -211,6 +211,22 @@
 .pt_6 {
     padding-top: 6px;
 }
+.ellips1{
+    left: 0;
+    bottom: -20%;
+}
+/* ...........................collebration-section */
+
+.slider-imgbox img {
+    filter: grayscale(100%);
+}
+
+.slider-imgbox:hover img {
+    filter: unset;
+}
+.pb_19{
+    padding-bottom: 19px;
+}
 
 
 
