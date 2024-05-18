@@ -181,7 +181,7 @@
 }
 
 .max-w474 {
-    max-width: 4740px;
+    max-width: 474px;
 }
 
 .max-w834 {
@@ -214,6 +214,9 @@
 .ellips1{
     left: 0;
     bottom: -20%;
+}
+.cursor-p{
+    cursor: pointer;
 }
 /* ...........................collebration-section */
 
