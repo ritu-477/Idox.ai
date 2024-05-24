@@ -262,8 +262,8 @@
 }
 
 .py_51_87 {
-    padding-top: 51px;
-    padding-bottom: 87px;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 .accordian1 {
@@ -318,40 +318,48 @@
 .accordian1.active .accordionbtn .watch-box {
     display: block !important;
 }
+
 /* ..........................bring-value section..................... */
-.max-w416{
+.max-w416 {
     max-width: 416px;
 }
-.py_90_65{
-    padding-top: 90px;
-    padding-bottom: 65px;
+
+.py_90_65 {
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
-.bring_value_box{
+
+.bring_value_box {
     max-width: 400px;
     background: #0389FF1F;
     border-radius: 10px;
     margin-bottom: 16px;
     padding: 13px 101px 13px 16px;
 }
-.gap_14{
+
+.gap_14 {
     gap: 14px;
 }
-.pb_44{
-    padding-bottom: 44px
+
+.pb_44 {
+    padding-bottom: 25px
 }
-.ellips4{
+
+.ellips4 {
     position: absolute;
     left: 2%;
     top: -12%;
     z-index: -1;
 }
-.ellips5{
+
+.ellips5 {
     position: absolute;
     right: 0;
     top: 10%;
     z-index: -1;
 }
-.max_img645{
+
+.max_img645 {
     max-width: 645px;
 }
 
@@ -444,6 +452,12 @@
     }
 }
 
+@media(min-width:768) {
+    .pb_44 {
+        padding-bottom: 44px
+    }
+}
+
 @media(min-width:992px) {
     .pt_lg_82 {
         padding-top: 82px;
@@ -452,4 +466,15 @@
     .max-w524 {
         max-width: 524px;
     }
+
+    .py_90_65 {
+        padding-top: 90px;
+        padding-bottom: 65px;
+    }
+
+    .py_51_87 {
+        padding-top: 51px;
+        padding-bottom: 87px;
+    }
+
 }
