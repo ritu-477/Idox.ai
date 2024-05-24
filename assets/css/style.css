@@ -339,6 +339,22 @@
 .pb_44{
     padding-bottom: 44px
 }
+.ellips4{
+    position: absolute;
+    left: 2%;
+    top: -12%;
+    z-index: -1;
+}
+.ellips5{
+    position: absolute;
+    right: 0;
+    top: 10%;
+    z-index: -1;
+}
+.max_img645{
+    max-width: 645px;
+}
+
 
 
 
