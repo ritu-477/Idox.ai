@@ -13,14 +13,6 @@ accordionbtn.forEach((e) => {
         activeaccodion && activeaccodion.classList.remove("active")
     })
 });
-// const accordionHead = document.querySelectorAll(".accordionHead");
-// accordionHead.forEach((e) => {
-//     e.addEventListener("click", () => {
-//         const activeAccordion = document.querySelector(".active")
-//         e.parentElement.classList.toggle("active")
-//         activeAccordion && activeAccordion.classList.remove("active")
-//     })
-// })
 
 
 $('.slider_collaboration').slick({
@@ -36,4 +28,16 @@ $('.slider_collaboration').slick({
     speed: 1000,
     pauseOnHover: true,
     cssEase: 'linear',
+});
+$('.Testimonials_slider').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    centerMode: true,
+    centerPadding: '60px',
+    autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    responsive: [
+    ]
 });

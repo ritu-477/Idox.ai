@@ -363,6 +363,46 @@
     max-width: 645px;
 }
 
+/* ................................ Testimonials......................................*/
+.ellips6 {
+    position: absolute;
+    top: -45px;
+    left: 20%;
+    z-index: -1;
+}
+
+.py_65 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.Testimonials_slider_box {
+    padding: 20px;
+    background: #0389FF1F;
+    border-radius: 20px;
+    width: 946px;
+}
+.style_italic{
+    font-style: italic;
+}
+.pb_46{
+    padding-bottom: 46px;
+}
+.pb_13{
+    padding-bottom: 13px;
+}
+.slick-slider.Testimonials_slider .slick-list .slick-track {
+    display: flex !important;
+    gap: 24px !important;
+}
+/* .slick-list {
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: relative;
+} */
+/* .slick-slide>div {
+    display: flex !important;
+} */
 
 
 
@@ -450,9 +490,13 @@
     .lh_55 {
         line-height: 55px;
     }
+
+    .Testimonials_slider_box {
+        padding: 27px 56px 42px 56px;
+    }
 }
 
-@media(min-width:768) {
+@media(min-width:768px) {
     .pb_44 {
         padding-bottom: 44px
     }
@@ -475,6 +519,11 @@
     .py_51_87 {
         padding-top: 51px;
         padding-bottom: 87px;
+    }
+
+    .py_65 {
+        padding-top: 65px;
+        padding-bottom: 65px;
     }
 
 }
