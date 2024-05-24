@@ -266,7 +266,6 @@
     padding-bottom: 87px;
 }
 
-
 .accordian1 {
     max-width: 531px;
     border-radius: 10px;
@@ -275,31 +274,37 @@
     transition: all 300ms linear;
 }
 
-.accordionbtn{
+.accordionbtn {
     padding: 24px;
     cursor: pointer;
 }
-.gap_22{
+
+.gap_22 {
     gap: 22px;
 }
-.watch-box{
+
+.watch-box {
     padding: 17px 17px 18px 17px;
     border-radius: 8px;
-    width: 64px;    
+    width: 64px;
     height: 64px;
     background: var(--bg-blue1);
     transition: all 300ms linear;
     display: none !important;
 }
-.max-w370{
+
+.max-w370 {
     max-width: 370px;
 }
+
 .accordian1.active .accordionbtn .content {
     color: var(--blue-clr);
 }
+
 .accordian1.active .accordionpara {
     height: unset;
 }
+
 .accordionpara {
     height: 0;
     overflow: hidden;
@@ -309,13 +314,31 @@
 .timeSaving_box.active .accordionpara {
     height: unset;
 }
+
 .accordian1.active .accordionbtn .watch-box {
     display: block !important;
 }
-
-
-
-
+/* ..........................bring-value section..................... */
+.max-w416{
+    max-width: 416px;
+}
+.py_90_65{
+    padding-top: 90px;
+    padding-bottom: 65px;
+}
+.bring_value_box{
+    max-width: 400px;
+    background: #0389FF1F;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    padding: 13px 101px 13px 16px;
+}
+.gap_14{
+    gap: 14px;
+}
+.pb_44{
+    padding-bottom: 44px
+}
 
 
 
