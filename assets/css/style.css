@@ -382,27 +382,33 @@
     border-radius: 20px;
     max-width: 946px;
 }
-.style_italic{
+
+.style_italic {
     font-style: italic;
 }
-.pb_46{
-    padding-bottom: 46px;
+
+.pb_46 {
+    padding-bottom: 16px;
 }
-.pb_13{
+
+.pb_13 {
     padding-bottom: 13px;
 }
+
 .slick-slider.Testimonials_slider .slick-list .slick-track {
     display: flex !important;
     gap: 24px !important;
 }
+
 .slick-dots li {
     margin: 0 7px 0 0 !important;
     width: 10px !important;
     height: 10px !important;
     border-radius: 28px !important;
     transition: all 300ms linear;
-    background: #E3E4E5;;
+    background: #E3E4E5;
 }
+
 .slick-dots li.slick-active {
     width: 53px !important;
     height: 10px !important;
@@ -420,6 +426,7 @@
 .slick-list {
     padding-bottom: 42px !important;
 }
+
 /* .slick-track.Testimonials_slider{
     gap: 20px !important;
     align-items: center !important;
@@ -435,19 +442,21 @@
     display: flex !important;
 } */
 /* .....................................secure-solution...........................*/
-.ellips_7{
+.ellips_7 {
     position: absolute;
     top: -35%;
     left: 7%;
     z-index: -1;
 }
-.ellips-8{
+
+.ellips-8 {
     position: absolute;
     right: 0;
     bottom: -70%;
     z-index: -1;
 }
-.max_img673{
+
+.max_img673 {
     max-width: 673px;
 }
 
@@ -540,6 +549,10 @@
 
     .Testimonials_slider_box {
         padding: 27px 56px 42px 56px;
+    }
+
+    .pb_46 {
+        padding-bottom: 46px;
     }
 }
 
