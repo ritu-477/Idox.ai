@@ -586,9 +586,7 @@
     padding-bottom: 55px;
 }
 
-.border_bt {
-    border-bottom: 1px solid #FBFDFF;
-}
+
 
 
 
@@ -706,6 +704,18 @@
     .border_right1 {
         border-right: 1px solid #FBFDFF;
     }
+
+    .border_bt {
+        border-bottom: 1px solid #FBFDFF;
+    }
+
+    .border_bt1 {
+        border-bottom: 1px solid #FBFDFF;
+    }
+    .border_right5{
+        border-right: 1px solid #FBFDFF;
+    }
+
 }
 
 @media(min-width:768px) {
@@ -715,6 +725,17 @@
 
     .mt_77 {
         margin-top: 77px;
+    }
+
+    .border_right3 {
+        border-right: 1px solid #FBFDFF;
+    }
+
+    .border_right4 {
+        border-right: 1px solid #FBFDFF;
+    }
+    .border_right5{
+        border-right: none;
     }
 }
 
@@ -755,4 +776,17 @@
     .pt_72 {
         padding-top: 72px;
     }
+
+    .border_right2 {
+        border-right: 1px solid #FBFDFF;
+    }
+
+    .border_bt1 {
+        border-bottom: none;
+    }
+
+    .border_right4 {
+        border-right: none;
+    }
+
 }
