@@ -14,12 +14,14 @@
     --fs-3xl: 44px;
     --fs-4xl: 48px;
     /* font-color */
+    --fc-white:#ffffff;
     --body-clr:#020d15;
     --primary-text-clr:#fbfdff;
     --outline-clr:#323942;
     --blue-clr:#0389ff;
     --nav-bgclr:#030d18;
     --bg-blue1:#0389FF1F;
+    --bg-black:#000000;
 
 }
 /* font-sizes.... */
@@ -63,6 +65,9 @@
     font-size: var(--fs-xxxxsm);
 }
 /* .............colors................ */
+.white-clr{
+    color: var(--fc-white);
+}
 .body_clr{
     background-color: var(--body-clr)
 }
@@ -74,6 +79,9 @@
 }
 .blue-clr{
     color: var(--blue-clr);
+}
+.bg_black{
+    background-color: var(--bg-black);
 }
 @media(max-width:575.99px){
     :root{
