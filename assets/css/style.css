@@ -598,6 +598,25 @@
     padding-top: 48px;
     padding-bottom: 48px;
 }
+/* ---------------get-started-today */
+.bg_image{
+    background-image: url("../images/png/get-startedbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.input_box{
+    max-width: 520px;
+    border-radius: 29px;
+    background: #FBFDFF12;
+    padding: 0 0 0 33px;
+}
+.input_modify{
+    outline: none;
+    background: transparent;
+}
+.mb_46{
+    margin-bottom: 46px;
+}
 
 
 
@@ -820,6 +839,10 @@
     .py_62_103 {
         padding-top: 62px;
         padding-bottom: 103px;
+    }
+    .py_124{
+        padding-top: 124px;
+        padding-bottom: 124px;
     }
 
 }
