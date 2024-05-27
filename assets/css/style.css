@@ -613,9 +613,16 @@
 .input_modify{
     outline: none;
     background: transparent;
+    font-family: 'plus jakarta sans', sans-serif;
+    color: var(--primary-text-clr);
+    opacity: 80%;
 }
 .mb_46{
     margin-bottom: 46px;
+}
+.py_48{
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 
@@ -760,6 +767,10 @@
     .py_62_103 {
         padding-top: 62px;
         padding-bottom: 70px;
+    }
+    .py-sm_70{
+        padding-top: 70px;
+            padding-bottom: 70px;
     }
 
 }
