@@ -585,6 +585,20 @@
     padding-top: 55px;
     padding-bottom: 55px;
 }
+/*..............Accelerate Your Enterprise’s Document Redaction Efforts.....................*/
+.ellips_11{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+.py_62_103 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+/* .max-wimg528{
+    max-width: 528px;
+} */
 
 
 
@@ -662,6 +676,9 @@
         background: var(--primary-text-clr);
         width: 27px;
     }
+    .w_100{
+        width: 100%;
+    }
 
 }
 
@@ -715,6 +732,10 @@
     .border_right5{
         border-right: 1px solid #FBFDFF;
     }
+          .py_62_103 {
+              padding-top: 62px;
+              padding-bottom: 70px;
+          }
 
 }
 
@@ -787,6 +808,10 @@
 
     .border_right4 {
         border-right: none;
+    }
+    .py_62_103{
+        padding-top: 62px;
+        padding-bottom: 103px;
     }
 
 }
