@@ -564,6 +564,32 @@
     margin-top: 40px;
 }
 
+/* ----------------------------------------- Our Integrations....................................*/
+.py_87_61 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.pt_72 {
+    padding-top: 40px;
+}
+
+.ellips_10 {
+    position: absolute;
+    left: 0;
+    top: -15%;
+    z-index: -1;
+}
+
+.py_55 {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.border_bt {
+    border-bottom: 1px solid #FBFDFF;
+}
+
 
 
 
@@ -672,6 +698,14 @@
     .mb_58 {
         margin-bottom: 58px;
     }
+
+    .pt_72 {
+        padding-top: 60px;
+    }
+
+    .border_right1 {
+        border-right: 1px solid #FBFDFF;
+    }
 }
 
 @media(min-width:768px) {
@@ -713,4 +747,12 @@
         padding-bottom: 87px;
     }
 
+    .py_87_61 {
+        padding-top: 87px;
+        padding-bottom: 61px;
+    }
+
+    .pt_72 {
+        padding-top: 72px;
+    }
 }
