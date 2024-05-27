@@ -459,18 +459,21 @@
 .max_img673 {
     max-width: 673px;
 }
+
 /* ....................how it works */
-.py_65_87{
+.py_65_87 {
     padding-top: 48px;
     padding-bottom: 48px;
 }
-.ellips_9{
+
+.ellips_9 {
     position: absolute;
     top: 0;
     left: 23%;
     z-index: -1;
 }
-.get_started_boxouter{
+
+.get_started_boxouter {
     padding: 23px 20px 20px 21px;
     max-width: 231px;
     border-radius: 15px;
@@ -478,54 +481,59 @@
     margin-bottom: 25px;
     width: 100%;
 }
-.plus_icon{
+
+.plus_icon {
     position: absolute;
     top: -16px;
     right: -19px;
 }
-.mb_58{
-    margin-bottom: 58px;
+
+.mb_58 {
+    margin-bottom: 40px;
 }
-.get_started_boxinner{
+
+.get_started_boxinner {
     max-width: 189px;
     border-radius: 22px;
     background: #00000054;
     border: 1px solid #FFFFFF1A
 }
-.p_19_14{
+
+.p_19_14 {
     padding: 19px 14px;
 }
-.padding_12_24{
+
+.padding_12_24 {
     padding: 12.7px 24.35px 20.71px 17.35px;
 }
-.doted_box{
-    border:1px dashed #0389FF;
+
+.doted_box {
+    border: 1px dashed #0389FF;
     padding: 9px 7px;
     max-width: 161px;
     border-radius: 5px;
 }
-.pb_10{
+
+.pb_10 {
     padding-bottom: 10px;
 }
-.add_document{
+
+.add_document {
     border-radius: 44.99px;
     padding: 3px 15px;
     max-width: 129px;
     background: linear-gradient(99.45deg, #0389FF 0%, #0069E3 100%);
 }
-.right_arrow{
-    position: absolute;
-    top: 43%;
-    transform: translateY(-50%);
-    left: 85%   ;
-}
-.gap_6{
+
+.gap_6 {
     gap: 6px;
 }
-.gap_11{
+
+.gap_11 {
     gap: 11px;
 }
-.table_contents{
+
+.table_contents {
     padding: 3px 6px 2px 2.46px;
     border-radius: 4px;
     background: #0389FF;
@@ -533,24 +541,28 @@
     margin-bottom: 7px;
     width: 88px;
 }
-.april-box{
+
+.april-box {
     padding: 2px;
     background: #0389FF;
     border-radius: 4px;
 }
-.clinic_box{
+
+.clinic_box {
     width: 115.9px;
     border-radius: 4px;
     background: #0389FF;
     padding: 3px 6px 2px 2.46px;
     margin-top: 7px;
 }
-.padding_12_7{
+
+.padding_12_7 {
     padding: 12.66px 7px 6px 13px;
 }
+
 .mt_77 {
-     margin-top: 40px;
- }
+    margin-top: 40px;
+}
 
 
 
@@ -645,16 +657,29 @@
     .pb_46 {
         padding-bottom: 46px;
     }
-         .mt_77{
-            margin-top: 50px;
-         }
+
+    .mt_77 {
+        margin-top: 50px;
+    }
+
+    .right_arrow {
+        position: absolute;
+        top: 43%;
+        transform: translateY(-50%);
+        left: 85%;
+    }
+
+    .mb_58 {
+        margin-bottom: 58px;
+    }
 }
 
 @media(min-width:768px) {
     .pb_44 {
         padding-bottom: 44px
     }
-    .mt_77{
+
+    .mt_77 {
         margin-top: 77px;
     }
 }
