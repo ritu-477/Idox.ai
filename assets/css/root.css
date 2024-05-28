@@ -24,7 +24,17 @@
     --bg-black:#000000;
     --bg-footer:#021728;
     --bt-footer: #344553;
-
+    --border-btn:#b0b5b9;
+    --border-right1:#27343f;
+    --shadow1:#2746ED80;
+    --linear1:#0069E3;
+    --slider-bg:#E3E4E5;
+    --bg-box:#00000054;
+    --inner-border:#FFFFFF1A;
+    --border-footer:#808b93;
+    --input-bg:#FBFDFF12;
+    --border-right2:#273138;
+    --input-checked:#01172e;
 }
 /* font-sizes.... */
 .fs_48{
