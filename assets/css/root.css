@@ -22,6 +22,8 @@
     --nav-bgclr:#030d18;
     --bg-blue1:#0389FF1F;
     --bg-black:#000000;
+    --bg-footer:#021728;
+    --bt-footer: #344553;
 
 }
 /* font-sizes.... */
@@ -82,6 +84,9 @@
 }
 .bg_black{
     background-color: var(--bg-black);
+}
+.bg-footer{
+    background-color: var(--bg-footer);
 }
 @media(max-width:575.99px){
     :root{

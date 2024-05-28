@@ -590,7 +590,7 @@
 .ellips_11 {
     position: absolute;
     right: 0;
-    top: 0;
+    top: -10%;
     z-index: -1;
 }
 
@@ -598,32 +598,141 @@
     padding-top: 48px;
     padding-bottom: 48px;
 }
-/* ---------------get-started-today */
-.bg_image{
+
+.max-wimg528 {
+    max-width: 528px;
+}
+
+.charging_position {
+    position: absolute;
+    bottom: 31px;
+    right: 0;
+}
+
+/* ------------------------------------------choose the plan best fits for you------------------------- */
+.ellips_12 {
+    position: absolute;
+    left: 0;
+    top: -50%;
+    z-index: -1;
+}
+
+.py_104_34 {
+    padding-top: 48px;
+    padding-bottom: 34px;
+}
+
+/* -----------------------------------------------get-started-today-------------------------------------- */
+.bg_image {
     background-image: url("../images/png/get-startedbg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.input_box{
+
+.input_box {
     max-width: 520px;
     border-radius: 29px;
     background: #FBFDFF12;
     padding: 0 0 0 33px;
 }
-.input_modify{
+
+.input_modify {
     outline: none;
     background: transparent;
     font-family: 'plus jakarta sans', sans-serif;
     color: var(--primary-text-clr);
     opacity: 80%;
 }
-.mb_46{
+
+.mb_46 {
     margin-bottom: 46px;
 }
-.py_48{
+
+.py_48 {
     padding-top: 48px;
     padding-bottom: 48px;
 }
+
+/* --------------------------footer---------------------------------- */
+.pt_110 {
+    padding-top: 48px;
+}
+
+.container_1310 {
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.opacity_60 {
+    opacity: 60%;
+}
+
+.max-w225 {
+    max-width: 245px;
+    padding-top: 19px;
+}
+
+.footer_link {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #808b93;
+    transition: .2s;
+}
+
+.gap_10 {
+    gap: 10px;
+}
+
+.mt_36 {
+    margin-top: 36px;
+}
+
+.bt_linkline::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background: var(--blue-clr);
+    width: 0%;
+    bottom: 0;
+    left: 0;
+    transition: all 200ms linear;
+
+}
+
+.bt_linkline:hover {
+    color: var(--blue-clr);
+    opacity: 1;
+}
+
+.bt_linkline:hover::after {
+    width: 100%;
+}
+
+.footer_link:hover {
+    border:1px solid var(--fc-white);
+    transform: translateY(-5px);
+}
+
+.footer_link:hover svg path {
+    fill: var(--fc-white);
+}
+.border_bottom{
+    border-bottom: 1px solid var(--primary-text-clr);
+    opacity: 20%;
+
+}
+.mt_40{
+    margin-top: 40px;
+}
+.py_27{
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
 
 
 
@@ -705,11 +814,6 @@
     .w_100 {
         width: 100%;
     }
-
-    .max-wimg528 {
-        max-width: 528px;
-    }
-
 }
 
 @media(min-width:576px) {
@@ -749,28 +853,42 @@
     }
 
     .border_right1 {
-        border-right: 1px solid #FBFDFF;
+        border-right: 1px solid #273138;
     }
 
     .border_bt {
-        border-bottom: 1px solid #FBFDFF;
+        border-bottom: 1px solid #273138;
     }
 
     .border_bt1 {
-        border-bottom: 1px solid #FBFDFF;
+        border-bottom: 1px solid #273138;
     }
 
     .border_right5 {
-        border-right: 1px solid #FBFDFF;
+        border-right: 1px solid #273138;
     }
 
     .py_62_103 {
         padding-top: 62px;
         padding-bottom: 70px;
     }
-    .py-sm_70{
+
+    .py-sm_70 {
         padding-top: 70px;
-            padding-bottom: 70px;
+        padding-bottom: 70px;
+    }
+
+    .charging_position {
+        bottom: 50px;
+        right: 8px;
+    }
+
+    .py_104_34 {
+        padding-top: 70px;
+        padding-bottom: 34px;
+    }
+    .mt_sm_60{
+        margin-top: 60px;
     }
 
 }
@@ -785,15 +903,19 @@
     }
 
     .border_right3 {
-        border-right: 1px solid #FBFDFF;
+        border-right: 1px solid #273138;
     }
 
     .border_right4 {
-        border-right: 1px solid #FBFDFF;
+        border-right: 1px solid #273138;
     }
 
     .border_right5 {
         border-right: none;
+    }
+
+    .pt_110 {
+        padding-top: 70px;
     }
 }
 
@@ -836,7 +958,7 @@
     }
 
     .border_right2 {
-        border-right: 1px solid #FBFDFF;
+        border-right: 1px solid #273138;
     }
 
     .border_bt1 {
@@ -851,9 +973,21 @@
         padding-top: 62px;
         padding-bottom: 103px;
     }
-    .py_124{
+
+    .py_124 {
         padding-top: 124px;
         padding-bottom: 124px;
     }
 
+    .py_104_34 {
+        padding-top: 104px;
+        padding-bottom: 34px;
+    }
+
+    .pt_110 {
+        padding-top: 110px;
+    }
+    .mt_lg_95{
+        margin-top: 95px;
+    }
 }
