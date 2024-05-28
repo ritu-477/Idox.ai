@@ -445,7 +445,7 @@
 .ellips-8 {
     position: absolute;
     right: 0;
-    bottom: -70%;
+    bottom: -55%;
     z-index: -1;
 }
 
@@ -605,7 +605,7 @@ input[type="checkbox"]:checked {
 .ellips_10 {
     position: absolute;
     left: 0;
-    top: -15%;
+    top: -10%;
     z-index: -1;
 }
 
@@ -641,7 +641,7 @@ input[type="checkbox"]:checked {
 .ellips_12 {
     position: absolute;
     left: 0;
-    top: -40%;
+    top: -30%;
     z-index: -1;
 }
 
