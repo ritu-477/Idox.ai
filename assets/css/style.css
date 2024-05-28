@@ -301,7 +301,8 @@
 }
 
 .accordian1.active .accordionpara {
-    height: unset;
+    height: unset !important;
+    
 }
 
 .accordionpara {

@@ -5,8 +5,8 @@ function openNav() {
     document.querySelector(".iconbox").classList.toggle("cross")
 }
 // accordion
-const accordionbtn = document.querySelectorAll(".accordionbtn")
-accordionbtn.forEach((e) => {
+const accordian1 = document.querySelectorAll(".accordian1")
+accordian1.forEach((e) => {
     e.addEventListener("click", () => {
         const activeaccodion = document.querySelector(".active")
         e.parentElement.classList.toggle("active")
