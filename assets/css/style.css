@@ -434,9 +434,10 @@
 .slick-list {
     padding-bottom: 42px !important;
 }
-.template-container {
+/* .template-container {
     overflow-y: hidden;
-}
+    overflow-x: hidden;
+} */
 
 /* .....................................secure-solution...........................*/
 .ellips_7 {
