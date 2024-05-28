@@ -667,9 +667,9 @@ input[type="checkbox"]:checked {
 }
 
 .choose_col_hover:hover .slect_btn {
-    background: linear-gradient(159.94deg, rgba(0, 136, 255, 0.58) -14.36%, #0069E3 113.71%);
+    background: linear-gradient(159.94deg, rgba(0, 136, 255, 0.58) -14.36%, var(--linear1) 113.71%);
     border: 1px solid transparent;
-    box-shadow: 0px 4px 32px 0px var(--clr-btnShadowBlue);
+    box-shadow: 0px 4px 32px 0px var(--shadow1);
 }
 
 .choose_col_hover:hover .doller {
@@ -1181,5 +1181,10 @@ input[type="checkbox"]:checked {
 
     .bottom_x_line3 {
         display: none;
+    }
+
+    .py-lg_124 {
+        padding-top: 124px;
+        padding-bottom: 124px;
     }
 }

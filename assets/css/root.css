@@ -14,92 +14,113 @@
     --fs-3xl: 44px;
     --fs-4xl: 48px;
     /* font-color */
-    --fc-white:#ffffff;
-    --body-clr:#020d15;
-    --primary-text-clr:#fbfdff;
-    --outline-clr:#323942;
-    --blue-clr:#0389ff;
-    --nav-bgclr:#030d18;
-    --bg-blue1:#0389FF1F;
-    --bg-black:#000000;
-    --bg-footer:#021728;
+    --fc-white: #ffffff;
+    --body-clr: #020d15;
+    --primary-text-clr: #fbfdff;
+    --outline-clr: #323942;
+    --blue-clr: #0389ff;
+    --nav-bgclr: #030d18;
+    --bg-blue1: #0389FF1F;
+    --bg-black: #000000;
+    --bg-footer: #021728;
     --bt-footer: #344553;
-    --border-btn:#b0b5b9;
-    --border-right1:#27343f;
-    --shadow1:#2746ED80;
-    --linear1:#0069E3;
-    --slider-bg:#E3E4E5;
-    --bg-box:#00000054;
-    --inner-border:#FFFFFF1A;
-    --border-footer:#808b93;
-    --input-bg:#FBFDFF12;
-    --border-right2:#273138;
-    --input-checked:#01172e;
+    --border-btn: #b0b5b9;
+    --border-right1: #27343f;
+    --shadow1: #2746ED80;
+    --linear1: #0069E3;
+    --slider-bg: #E3E4E5;
+    --bg-box: #00000054;
+    --inner-border: #FFFFFF1A;
+    --border-footer: #808b93;
+    --input-bg: #FBFDFF12;
+    --border-right2: #273138;
+    --input-checked: #01172e;
 }
+
 /* font-sizes.... */
-.fs_48{
+.fs_48 {
     font-size: var(--fs-4xl);
 }
+
 .fs_44 {
     font-size: var(--fs-3xl);
 }
+
 .fs_32 {
     font-size: var(--fs-2xl);
 }
+
 .fs_20 {
     font-size: var(--fs-larg-lg);
 }
+
 .fs_18 {
     font-size: var(--fs-lg);
 }
+
 .fs_16 {
     font-size: var(--fs-larg-md);
 }
+
 .fs_15 {
     font-size: var(--fs-md);
 }
+
 .fs_14 {
     font-size: var(--fs-larg-sm);
 }
+
 .fs_13 {
     font-size: var(--fs-sm);
 }
-.fs_12{
+
+.fs_12 {
     font-size: var(--fs-xsm);
 }
-.fs_10{
+
+.fs_10 {
     font-size: var(--fs-xxsm);
 }
+
 .fs_xxxsm {
     font-size: var(--fs-xxxsm);
 }
+
 .fs_9 {
     font-size: var(--fs-xxxxsm);
 }
+
 /* .............colors................ */
-.white-clr{
+.white-clr {
     color: var(--fc-white);
 }
-.body_clr{
+
+.body_clr {
     background-color: var(--body-clr)
 }
-.primary-text-clr{
+
+.primary-text-clr {
     color: var(--primary-text-clr);
 }
-.nav-bg-clr{
+
+.nav-bg-clr {
     background-color: var(--nav-bgclr);
 }
-.blue-clr{
+
+.blue-clr {
     color: var(--blue-clr);
 }
-.bg_black{
+
+.bg_black {
     background-color: var(--bg-black);
 }
-.bg-footer{
+
+.bg-footer {
     background-color: var(--bg-footer);
 }
-@media(max-width:575.99px){
-    :root{
+
+@media(max-width:575.99px) {
+    :root {
         --fs-2xl: 25px;
         --fs-3xl: 23px;
         --fs-4xl: 27px;
