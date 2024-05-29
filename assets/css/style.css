@@ -274,6 +274,7 @@
 }
 
 .accordionbtn {
+    width: 531px;
     padding: 24px;
     cursor: pointer;
 }
@@ -302,7 +303,7 @@
 
 .accordian1.active .accordionpara {
     height: unset !important;
-    
+
 }
 
 .accordionpara {
@@ -380,7 +381,6 @@
     padding: 20px;
     background: var(--bg-blue1);
     border-radius: 20px;
-    /* max-width: 946px; */
 }
 
 .slick-list {
@@ -388,7 +388,7 @@
 }
 
 #testi-slider .slick-slide:not(.slick-current) {
-    opacity: 50%;
+    opacity: 50% !important;
 }
 
 .style_italic {
@@ -434,6 +434,7 @@
 .slick-list {
     padding-bottom: 42px !important;
 }
+
 /* .....................................secure-solution...........................*/
 .ellips_7 {
     position: absolute;
