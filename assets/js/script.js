@@ -10,7 +10,7 @@ accordionbtn.forEach((e) => {
     e.addEventListener("click", () => {
         const activeaccodion = document.querySelector(".active")
         e.parentElement.classList.toggle("active")
-        activeaccodion && activeaccodion.classList.remove("active")
+        activeaccodion && activeaccodion.classList.active("active")
     })
 });
 
