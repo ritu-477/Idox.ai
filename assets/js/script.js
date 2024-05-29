@@ -5,24 +5,15 @@ function openNav() {
     document.querySelector(".iconbox").classList.toggle("cross")
 }
 // accordion
-// const accordionbtn = document.querySelectorAll(".accordionbtn")
-// accordionbtn.forEach((e) => {
-//     e.addEventListener("click", () => {
-//         const activeaccodion = document.querySelector(".active")
-//         e.parentElement.classList.toggle("active")
-//         activeaccodion && activeaccodion.classList.remove("active")
-//     })
-// });
 const accordionbtn = document.querySelectorAll(".accordionbtn")
 accordionbtn.forEach((e) => {
     e.addEventListener("click", () => {
         const activeaccodion = document.querySelector(".active")
         e.parentElement.classList.toggle("active")
-        // activeaccodion && activeaccodion.classList.remove("active")
-
+        activeaccodion && activeaccodion.classList.remove("active")
     })
-
 });
+
 // scroll-to -top-button////
 const mybutton = document.querySelector(".topBtn");
 const show = document.querySelector(".show")

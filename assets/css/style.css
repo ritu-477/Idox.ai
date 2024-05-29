@@ -312,7 +312,7 @@
 }
 
 .timeSaving_box.active .accordionpara {
-    height: unset;
+    height: unset !important;
 }
 
 .accordian1.active .accordionbtn .watch-box {
@@ -434,11 +434,6 @@
 .slick-list {
     padding-bottom: 42px !important;
 }
-/* .template-container {
-    overflow-y: hidden;
-    overflow-x: hidden;
-} */
-
 /* .....................................secure-solution...........................*/
 .ellips_7 {
     position: absolute;
