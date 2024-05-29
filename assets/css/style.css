@@ -387,8 +387,8 @@
     padding: 0 20% 42px 20% !important;
 }
 
-#testi-slider .slick-slide:not(.slick-current) {
-    opacity: 50% !important;
+#testi.Testimonials_slider .slick-slide:not(.slick-current) {
+    opacity: 70% !important;
 }
 
 .style_italic {
