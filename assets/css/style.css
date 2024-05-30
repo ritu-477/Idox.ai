@@ -217,6 +217,7 @@
 .cursor-p {
     cursor: pointer;
 }
+
 .max-w474 {
     max-width: 474px;
 }
@@ -721,6 +722,30 @@ input[type="checkbox"]:checked {
 .pt_40 {
     padding-top: 40px;
 }
+.bottom_x_line2 {
+    display: block;
+    border: 1px solid var(--primary-text-clr);
+    opacity: 15%;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+}
+
+.bottom_x_line3 {
+    display: block;
+    border: 1px solid var(--primary-text-clr);
+    opacity: 15%;
+    position: absolute;
+    top: 68%;
+    width: 100%;
+}
+.bottom_x_line1 {
+    border: 1px solid var(--primary-text-clr);
+    opacity: 15%;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+}
 
 /* -----------------------------------------------get-started-today-------------------------------------- */
 .reactangle_position {
@@ -1084,19 +1109,19 @@ input[type="checkbox"]:checked {
     }
 
     .bottom_x_line2 {
-        border: 1px solid var(--primary-text-clr);
-        opacity: 15%;
-        position: absolute;
         top: 16%;
-        width: 100%;
     }
 
     .bottom_x_line3 {
-        border: 1px solid var(--primary-text-clr);
-        opacity: 15%;
-        position: absolute;
         top: 66%;
+    }
+
+    .bottom_x_line4 {
+        border: 1px solid var(--primary-text-clr);
+        position: absolute;
+        top: 50%;
         width: 100%;
+        opacity: 15%;
     }
 }
 
@@ -1182,13 +1207,6 @@ input[type="checkbox"]:checked {
         margin-bottom: 107px
     }
 
-    .bottom_x_line1 {
-        border: 1px solid var(--primary-text-clr);
-        opacity: 15%;
-        position: absolute;
-        top: 30%;
-        width: 100%;
-    }
 
     .bottom_x_line2 {
         display: none;
@@ -1196,6 +1214,14 @@ input[type="checkbox"]:checked {
 
     .bottom_x_line3 {
         display: none;
+    }
+
+    .bottom_x_line4 {
+        display: none;
+    }
+
+    .bottom_x_line1 {
+        top: 30%;
     }
 
     .py-lg_124 {
