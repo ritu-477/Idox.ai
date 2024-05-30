@@ -10,9 +10,9 @@
     --fs--larg-md: 16px;
     --fs-lg: 18px;
     --fs-larg-lg: 20px;
-    --fs-2xl: 32px;
-    --fs-3xl: 44px;
-    --fs-4xl: 48px;
+    --fs-2xl: 25px;
+    --fs-3xl: 23px;
+    --fs-4xl: 27px;
     /* font-color */
     --fc-white: #ffffff;
     --body-clr: #020d15;
@@ -119,10 +119,10 @@
     background-color: var(--bg-footer);
 }
 
-@media(max-width:575.99px) {
+@media(min-width:575.99px) {
     :root {
-        --fs-2xl: 25px;
-        --fs-3xl: 23px;
-        --fs-4xl: 27px;
+        --fs-2xl: 32px;
+        --fs-3xl: 44px;
+        --fs-4xl: 48px;
     }
 }
