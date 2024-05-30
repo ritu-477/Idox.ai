@@ -217,6 +217,9 @@
 .cursor-p {
     cursor: pointer;
 }
+.max-w474 {
+    max-width: 474px;
+}
 
 /* ...........................collebration-section */
 
@@ -1198,9 +1201,5 @@ input[type="checkbox"]:checked {
     .py-lg_124 {
         padding-top: 124px;
         padding-bottom: 124px;
-    }
-
-    .max-w474 {
-        max-width: 474px;
     }
 }
