@@ -118,10 +118,21 @@
 .bg-footer {
     background-color: var(--bg-footer);
 }
-@media(min-width:575.99px) {
+
+@media(min-width:576px) {
     :root {
-        --fs-2xl: 32px;
-        --fs-3xl: 44px;
-        --fs-4xl: 48px;
+        --fs-2xl: 30px;
+        --fs-3xl: 42px;
+        --fs-4xl: 46px;
+    }
+}
+
+@media(min-width:768px) {
+    @media(min-width:575.99px) {
+        :root {
+            --fs-2xl: 32px;
+            --fs-3xl: 44px;
+            --fs-4xl: 48px;
+        }
     }
 }

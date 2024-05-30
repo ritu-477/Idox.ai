@@ -95,3 +95,19 @@ $('.Testimonials_slider').slick({
 
     ]
 });
+$('autoply_slider1').slick({
+    dots: false,
+    infinite: true,
+    speed: 200,
+    autoplay: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+});
+$('autoply_slider2').slick({
+    dots: false,
+    infinite: true,
+    speed: 200,
+    autoplay: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+});
