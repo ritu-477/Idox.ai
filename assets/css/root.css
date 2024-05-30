@@ -118,7 +118,6 @@
 .bg-footer {
     background-color: var(--bg-footer);
 }
-
 @media(min-width:575.99px) {
     :root {
         --fs-2xl: 32px;
