@@ -117,7 +117,7 @@ $(".autoply_slider1").slick({
         {
             breakpoint: 992,
             settings: {
-                slidesToShow: 2,
+                slidesToShow: 3,
                 slidesToScroll: 1,
                 infinite: true,
             },
@@ -162,7 +162,7 @@ $(".autoply_slider2").slick({
         {
             breakpoint: 992,
             settings: {
-                slidesToShow: 2,
+                slidesToShow: 3,
                 slidesToScroll: 1,
                 infinite: true,
             },
