@@ -95,19 +95,93 @@ $('.Testimonials_slider').slick({
 
     ]
 });
-$('autoply_slider1').slick({
+$(".autoply_slider1").slick({
     dots: false,
     infinite: true,
-    speed: 200,
     autoplay: true,
-    slidesToShow: 3,
+    autoplaySpeed: 1600,
+    arrows: false,
+    ltr: false,
+    speed: 500,
+    slidesToShow: 4,
     slidesToScroll: 1,
+    responsive: [
+        {
+            breakpoint: 1440,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                infinite: true,
+            },
+        },
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+            },
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+            },
+        },
+        {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+            },
+        },
+    ],
 });
-$('autoply_slider2').slick({
+$(".autoply_slider2").slick({
     dots: false,
     infinite: true,
-    speed: 200,
     autoplay: true,
-    slidesToShow: 3,
+    autoplaySpeed: 1600,
+    arrows: false,
+    ltr: false,
+    speed: 500,
+    slidesToShow: 4,
     slidesToScroll: 1,
+    responsive: [
+        {
+            breakpoint: 1440,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                infinite: true,
+            },
+        },
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+            },
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+            },
+        },
+        {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+            },
+        },
+    ],
 });

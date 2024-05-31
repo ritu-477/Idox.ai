@@ -621,6 +621,33 @@ input[type="checkbox"]:checked {
     padding-bottom: 30px;
 }
 
+.autoply_slider1 .slick-list {
+    padding: 0 0 0 0 !important;
+}
+
+.autoply_slider2 .slick-list {
+    padding: 0 0 0 0 !important;
+}
+
+.py_77_70 {
+    padding-top: 77px;
+    padding-bottom: 70px;
+}
+
+.py_75_62 {
+    padding-top: 75px;
+    padding-bottom: 62px;
+}
+
+.py_64_65 {
+    padding-top: 64px;
+    padding-bottom: 65px;
+}
+
+.border_bt {
+    border-bottom: 1px solid var(--border-right2);
+}
+
 /*..............Accelerate Your Enterprise’s Document Redaction Efforts.....................*/
 .ellips_11 {
     position: absolute;
@@ -997,22 +1024,6 @@ input[type="checkbox"]:checked {
         padding-top: 60px;
     }
 
-    .border_right1 {
-        border-right: 1px solid var(--border-right2);
-    }
-
-    .border_bt {
-        border-bottom: 1px solid var(--border-right2);
-    }
-
-    .border_bt1 {
-        border-bottom: 1px solid var(--border-right2);
-    }
-
-    .border_right5 {
-        border-right: 1px solid var(--border-right2);
-    }
-
     .py_62_103 {
         padding-top: 62px;
         padding-bottom: 70px;
@@ -1072,6 +1083,14 @@ input[type="checkbox"]:checked {
         padding: 13px 101px 13px 16px;
     }
 
+    .border_right1 {
+        border-right: 1px solid var(--border-right2);
+    }
+
+    .border_right2 {
+        border-right: 1px solid var(--border-right1);
+    }
+
 }
 
 @media(min-width:768px) {
@@ -1081,18 +1100,6 @@ input[type="checkbox"]:checked {
 
     .mt_77 {
         margin-top: 77px;
-    }
-
-    .border_right3 {
-        border-right: 1px solid var(--border-right2);
-    }
-
-    .border_right4 {
-        border-right: 1px solid var(--border-right2);
-    }
-
-    .border_right5 {
-        border-right: none;
     }
 
     .pt_110 {
@@ -1126,6 +1133,7 @@ input[type="checkbox"]:checked {
     .right_border1 {
         border-right: 1px solid var(--border-right1);
     }
+
 }
 
 @media(min-width:992px) {
@@ -1167,16 +1175,9 @@ input[type="checkbox"]:checked {
     }
 
     .border_right2 {
-        border-right: 1px solid var(--border-right2);
-    }
-
-    .border_bt1 {
-        border-bottom: none;
-    }
-
-    .border_right4 {
         border-right: none;
     }
+
 
     .py_62_103 {
         padding-top: 62px;
@@ -1231,7 +1232,4 @@ input[type="checkbox"]:checked {
         padding-bottom: 124px;
     }
 
-    .right_border2 {
-        border-right: 1px solid var(--border-right1);
-    }
 }
